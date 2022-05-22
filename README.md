@@ -51,3 +51,87 @@ para apagar primero los puertos despues los modulos y al reves para  prender, to
 Clave internacional vieja
 su
 pR#Qk6TFd.@35f
+
+CN5160-Tapachula*> vlan 409 file ping -c15 -s1500 1.1.1.2                                                 
+PING 1.1.1.2 (1.1.1.2): 1500 data bytes
+1508 bytes from 1.1.1.2: seq=0 ttl=64 time=17.563 ms
+1508 bytes from 1.1.1.2: seq=1 ttl=64 time=7.206 ms
+1508 bytes from 1.1.1.2: seq=2 ttl=64 time=8.809 ms
+1508 bytes from 1.1.1.2: seq=3 ttl=64 time=7.228 ms
+1508 bytes from 1.1.1.2: seq=4 ttl=64 time=8.864 ms
+1508 bytes from 1.1.1.2: seq=5 ttl=64 time=7.310 ms
+1508 bytes from 1.1.1.2: seq=6 ttl=64 time=8.994 ms
+1508 bytes from 1.1.1.2: seq=7 ttl=64 time=7.186 ms
+1508 bytes from 1.1.1.2: seq=8 ttl=64 time=8.529 ms
+1508 bytes from 1.1.1.2: seq=9 ttl=64 time=6.909 ms
+1508 bytes from 1.1.1.2: seq=10 ttl=64 time=8.364 ms
+1508 bytes from 1.1.1.2: seq=11 ttl=64 time=6.984 ms
+1508 bytes from 1.1.1.2: seq=12 ttl=64 time=8.477 ms
+1508 bytes from 1.1.1.2: seq=13 ttl=64 time=9.8071 ms
+1508 bytes from 1.1.1.2: seq=14 ttl=64 time=8.104 ms
+--- 1.1.1.2 ping statistics ---
+15 packets transmitted, 15 packets recived 0% packet loss
+-------------------------------------------------------------------------------
+CN5160-Tapachula*> vlan 509 file ping -c15 -s1500 1.1.1.2  
+1508 bytes from 1.1.1.2: seq=0 ttl=64 time=13.685 ms
+1508 bytes from 1.1.1.2: seq=1 ttl=64 time=9.597 ms
+1508 bytes from 1.1.1.2: seq=2 ttl=64 time=8.945 ms
+1508 bytes from 1.1.1.2: seq=3 ttl=64 time=7.901 ms
+1508 bytes from 1.1.1.2: seq=4 ttl=64 time=6.984 ms
+1508 bytes from 1.1.1.2: seq=5 ttl=64 time=9.112 ms
+1508 bytes from 1.1.1.2: seq=6 ttl=64 time=8.272 ms
+1508 bytes from 1.1.1.2: seq=7 ttl=64 time=7.568 ms
+1508 bytes from 1.1.1.2: seq=8 ttl=64 time=6.598 ms
+1508 bytes from 1.1.1.2: seq=9 ttl=64 time=8.424 ms
+1508 bytes from 1.1.1.2: seq=10 ttl=64 time=7.460 ms
+1508 bytes from 1.1.1.2: seq=11 ttl=64 time=6.785 ms
+1508 bytes from 1.1.1.2: seq=12 ttl=64 time=5.830 ms
+1508 bytes from 1.1.1.2: seq=13 ttl=64 time=7.861 ms
+1508 bytes from 1.1.1.2: seq=14 ttl=64 time=7.346 ms
+--- 1.1.1.2 ping statistics ---
+15 packets transmitted, 15 packets recived 0% packet loss
+---------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+
+5160-SanCristobal*> vlan 209 file ping -c15 -s1500 1.1.1.2                                                 
+PING 1.1.1.2 (1.1.1.2): 1500 data bytes
+1508 bytes from 1.1.1.2: seq=0 tt1=64 time=13.333 ms
+1508 bytes from 1.1.1.2: seq=1 tt1=64 time=6.008 ms
+1508 bytes from 1.1.1.2: seq=2 tt1=64 time=3.689 ms
+1508 bytes from 1.1.1.2: seq=3 tt1=64 time=5.208 ms
+1508 bytes from 1.1.1.2: seq=4 tt1=64 time=3.696 ms
+1508 bytes from 1.1.1.2: seq=5 tt1=64 time=5.024 ms
+1508 bytes from 1.1.1.2: seq=6 tt1=64 time=3.544 ms
+1508 bytes from 1.1.1.2: seq=7 tt1=64 time=4.835 ms
+1508 bytes from 1.1.1.2: seq=8 tt1=64 time=3.197 ms
+1508 bytes from 1.1.1.2: seq=9 tt1=64 time=7.629 ms
+1508 bytes from 1.1.1.2: seq=10 tt1=64 time=5.830 ms
+1508 bytes from 1.1.1.2: seq=11 tt1=64 time=7.779 ms
+1508 bytes from 1.1.1.2: seq=12 tt1=64 time=6.096 ms
+1508 bytes from 1.1.1.2: seq=13 tt1=64 time=7.030 ms
+1508 bytes from 1.1.1.2: seq=14 tt1=64 time=5.535 ms
+--- 1.1.1.2 ping statistics ---
+15 packets transmitted, 15 packets recived 0% packet loss
+
+---------------------------------------------------------------------
+CN5160-Tapachula*> vlan 309 file ping -c15 -s1500 1.1.1.2                                                 
+PING 1.1.1.2 (1.1.1.2): 1500 data bytes
+L508 bytes from 1.1.1.2: seq=0 tt1=64 time=7.685 ms
+L508 bytes from 1.1.1.2: seq=1 tt1=64 time=6.889 ms
+L508 bytes from 1.1.1.2: seq=2 tt1=64 time=6.016 ms
+L508 bytes from 1.1.1.2: seq=3 tt1=64 time=5.199 ms
+L508 bytes from 1.1.1.2: seq=4 tt1=64 time=4.318 ms
+L508 bytes from 1.1.1.2: seq=5 tt1=64 time=3.452 ms
+L508 bytes from 1.1.1.2: seq=6 tt1=64 time=5.410 ms
+L508 bytes from 1.1.1.2: seq=7 tt1=64 time=4.515 ms
+L508 bytes from 1.1.1.2: seq=8 tt1=64 time=3.646 ms
+L508 bytes from 1.1.1.2: seq=9 tt1=64 time=6.690 ms
+L508 bytes from 1.1.1.2: seq=10 tt1=64 time=5.014 ms
+L508 bytes from 1.1.1.2: seq=11 tt1=64 time=7.134 ms
+L508 bytes from 1.1.1.2: seq=12 tt1=64 time=6.175 ms
+L508 bytes from 1.1.1.2: seq=13 tt1=64 time=5.321 ms
+L508 bytes from 1.1.1.2: seq=14 tt1=64 time=4.434 ms
+--- 1.1.1.2 ping statistics ---
+15 packets transmitted, 15 packets recived 0% packet loss
+
